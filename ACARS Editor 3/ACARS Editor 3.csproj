@@ -52,6 +52,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucDegrees.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDegrees.Designer.cs">
+      <DependentUpon>ucDegrees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucDistance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDistance.Designer.cs">
+      <DependentUpon>ucDistance.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucLatLong.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -70,6 +82,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ucDegrees.resx">
+      <DependentUpon>ucDegrees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDistance.resx">
+      <DependentUpon>ucDistance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucLatLong.resx">
       <DependentUpon>ucLatLong.cs</DependentUpon>
     </EmbeddedResource>
